@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>event loop and call back queue</title>
+  
+</head>
+<body>
+    <h1>event loop  :</h1><p>event loop means it will check that 'call stack' is empty (if empty then it will take the code from 'callback queue' and send one by one to 'callstack')</p>
+
+    <h1>call back queue :</h1><p>in this queue the code is waiting in line to go to call stack by event loo</p>
+
+    <h1>synchronous:</h1><p>synchronous mean it will directly go to call stack </p>
+
+    <h1>asynchronous:</h1><p>asynchronous means the code which does dot go directly in 'call stack' ( it will through the 'web api' and 'callback queue' and then go to 'call stack' with the help of 'eventLoop')</p>
+
+    <h1>web api:</h1><p>where the time count will be down </p>
+</body>
+</html>

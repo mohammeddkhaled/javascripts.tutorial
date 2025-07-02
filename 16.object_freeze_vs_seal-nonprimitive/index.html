@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object freeze vs seal</title>
+    <script src="javascript.js"></script>
+</head>
+<body>
+     <h1> object freeze vs seal</h1> 
+
+     <p><b> user.name = 'khaled'</b>// adding to object</p>
+
+     <p><b> delete user.firstName </b>// deleting the value from object</p>
+
+     <p> <b>Object.seal(user)  </b>  // by sealing the object u can not aad or delete any value which is in (user) object but it can modify the value</p>
+
+     <p><b> Object.freeze(pata)</b>  //  by freezing the object u can not aad, delete or modify any value which is in (pata) object</p>
+
+     <p> <b>'mobileNumber' in user</b>  // it is use to check that mobileNUmber key  is exist in that object (user)</p>
+
+
+</body>
+</html>

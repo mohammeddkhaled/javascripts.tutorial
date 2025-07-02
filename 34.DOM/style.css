@@ -1,0 +1,14 @@
+.green-link{
+    color : teal;
+    text-decoration : none;
+    font-family : cursive;
+    font-weight : 1000;
+}
+
+.wavy-link{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+.my-link{
+    border: 2px solid teal;
+}

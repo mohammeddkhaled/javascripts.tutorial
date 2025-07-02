@@ -1,0 +1,15 @@
+.container {
+    color: green;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+img{
+    margin: 0;
+    width: 70px;
+}
+.container p {
+    margin: 0;
+    margin-left: 25px;
+}
