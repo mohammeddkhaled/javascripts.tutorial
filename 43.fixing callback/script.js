@@ -49,8 +49,3 @@ makeHttpRequest('GET', 'https://dummyjson.com/users')
   .catch((err) => console.log(err))
 
 
-
-
-
-  
-//fetching API
